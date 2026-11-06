@@ -16,8 +16,6 @@ For the quality bar and full submission rules, see CONTRIBUTING.md.
 
 <!-- The canonical primary URL (org/repo of record, not a fork). -->
 
-
-
 ## 2. Pillar + sub-category · 放在哪个分类
 
 <!--
@@ -25,8 +23,6 @@ Pick from existing sub-categories in README.md.
 Use the section label as in the README sub-section heading.
 Example: `Agents → Multi-agent decision frameworks`
 -->
-
-
 
 ## 3. Proposed entry bullet · 建议的条目
 
@@ -74,8 +70,6 @@ declare it as `→ pairs with <name>` (entry uses the other) or
 `← used by <name>` (entry is used by the other).
 -->
 
-
-
 ## 7. Curation notes (optional) · 补充说明（可选）
 
 <!--
@@ -84,12 +78,9 @@ nearby entries, or whether it has a cross-pillar relationship that
 should be mentioned in prose.
 -->
 
-
-
 ## 8. Anything else · 其他信息
 
 <!-- Optional: novel aspect, distinguishing features, related entries. -->
-
 
 By filing this issue you confirm that, if accepted, your contribution
 to the list's text will be released under [CC0-1.0](../../LICENSE).
