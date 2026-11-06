@@ -8,7 +8,7 @@
 
 <p>
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
-  <a href="https://github.com/LLMQuant/awesome-trading-agents/stargazers"><img src="https://img.shields.io/github/stars/LLMQuant/awesome-trading-agents?style=flat" alt="GitHub stars" /></a>
+  <a href="https://github.com/LLMQuant/awesome-trading-agents"><img src="https://img.shields.io/github/stars/LLMQuant/awesome-trading-agents?style=flat" alt="GitHub stars" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg" alt="License: CC0-1.0" /></a>
   <a href="https://github.com/topics/trading-agents"><img src="https://img.shields.io/badge/topics-trading--agents%20%C2%B7%20mcp--servers%20%C2%B7%20agent--skills-blue" alt="Topics" /></a>
   <a href="https://github.com/LLMQuant/awesome-trading-agents/commits"><img src="https://img.shields.io/github/last-commit/LLMQuant/awesome-trading-agents" alt="Last commit" /></a>
@@ -80,6 +80,7 @@ Agents 是 LLM 参与市场研究或交易决策的项目，包括分析师团�
 <a id="agents-vibe-trading"></a>
 - [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) - HKUDS 实验室的个人 Multi-agent 金融工作台；内置 Skills、MCP tools 和 swarm presets，覆盖 A 股 / HK / US / 加密 / 期货 / 外汇。
 - [brokermr810/QuantDinger](https://github.com/brokermr810/QuantDinger) - 开源 AI 量化交易平台；把 Multi-agent 研究、回测、实盘和多交易所路由放在一套流程里。
+- [Lumiwealth/lumibot](https://github.com/Lumiwealth/lumibot) - 可回测的 AI trading Agent / team runtime；内置研究、Bull / Bear 辩论、风控和记忆，同一策略循环可用于回测、模拟盘与实盘。
 - [The-Swarm-Corporation/AutoHedge](https://github.com/The-Swarm-Corporation/AutoHedge) - "几分钟启动一支自治对冲基金"；把 Swarms 框架用于市场分析、风控和执行；CLI / SDK 优先。
 - [olaxbt/ai-market-maker](https://github.com/olaxbt/ai-market-maker) - Agentic 加密 hedge-fund 栈；多交易员 Agent + Risk Guard + 回测 + paper trading + OpenClaw packaging。
 <a id="agents-langalpha"></a>
@@ -113,6 +114,8 @@ Agents 是 LLM 参与市场研究或交易决策的项目，包括分析师团�
 <a id="agents-ai-hedge-fund"></a>
 - [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) - 广泛 fork 的 LLM 驱动股票交易仓库；多个分析师 persona（巴菲特 / 芒格 / 木头姐）提议，组合经理决断。
 - [TraderAlice/OpenAlice](https://github.com/TraderAlice/OpenAlice) - "你的一人华尔街"；单 Agent 覆盖研究 → 入场 → 持仓 → 出场；Claude Agent SDK + Trading-as-Git 审批工作流 + 跨资产 UTA 账户设计。
+<a id="agents-nofx"></a>
+- [NoFxAiOS/nofx](https://github.com/NoFxAiOS/nofx) - 自托管 LLM 交易终端；模型负责读取市场、决策并记录推理，Go runtime 强制硬风控；支持 9 个交易所和多模型排行榜。
 <a id="agents-atlas-gic"></a>
 - [chrisworsey55/atlas-gic](https://github.com/chrisworsey55/atlas-gic) - General Intelligence Capital 自我改进交易 Agent；重点是持续研究和改进策略，而不是让多个 Agent 辩论。
 - [Gajesh2007/ai-trading-agent](https://github.com/Gajesh2007/ai-trading-agent) - Hyperliquid 上的 AI 交易 Agent；单 LLM 驱动执行；展示如何直接接入 Hyperliquid。
@@ -142,6 +145,9 @@ Agents 是 LLM 参与市场研究或交易决策的项目，包括分析师团�
 - [oficcejo/alpha-arena-okx](https://github.com/oficcejo/alpha-arena-okx) - nof1.ai Alpha Arena 的 OKX 重实现；DeepSeek / Qwen3-Max 担任决策者；适合看 nof1 中文衍生项目。
 - [wquguru/nof0](https://github.com/wquguru/nof0) - nof1.ai Alpha Arena 高热度复刻；Go 后端 + Next.js 前端，接 Hyperliquid、LLM executor、回测和排行榜。
 
+> 也可以看：[NoFxAiOS/nofx](#agents-nofx) 支持多个 LLM trader 并行运行和排行榜；完整介绍放在 Single-agent end-to-end traders，因为它首先是一套完整交易终端。
+
+
 <a id="agents-prediction-market"></a>
 ### Prediction-market specialists
 
@@ -165,6 +171,7 @@ Agents 是 LLM 参与市场研究或交易决策的项目，包括分析师团�
 <a id="agents-strategy-coding"></a>
 ### Strategy coding / self-improving agents
 
+- [HammerGPT/Hyper-Alpha-Arena](https://github.com/HammerGPT/Hyper-Alpha-Arena) - LLM 因子研究与永续交易平台；86 个内置因子 + IC / ICIR / 衰减评估，可从论文挖掘并验证新因子，再用于回测或交易。
 - [paperswithbacktest/pwb-alphaevolve](https://github.com/paperswithbacktest/pwb-alphaevolve) - DeepMind AlphaEvolve 风格的策略生成 Agent；用 LLM 编写和改进交易策略，再用于回测。
 - [Miasyster/QuantGPT](https://github.com/Miasyster/QuantGPT) - Agent 原生的 A 股多因子研究引擎；8 个 MCP 工具覆盖 因子设计 → 回测 → 评分 → 反过拟合 → WQ BRAIN 提交。*(与 rnikitin/QuantGPT 同名但是两个不同项目。)*
 
@@ -192,6 +199,7 @@ MCPs 是让 Agent 通过 Model Context Protocol 调用外部工具的服务。�
 - [BlockRunAI/blockrun-mcp](https://github.com/BlockRunAI/blockrun-mcp) - 按调用计费的实时数据 MCP，使用 x402 微支付；覆盖搜索、研究、行情、加密、X / Twitter。
 <a id="mcps-financemcp"></a>
 - [guangxiangdebizi/FinanceMCP](https://github.com/guangxiangdebizi/FinanceMCP) - Tushare + Binance MCP 横跨 A 股 / HK / 美股 / 基金 / 债券 / 宏观 / 稳定币 / 加密 / 财经新闻。
+- [chengzuopeng/stock-sdk](https://github.com/chengzuopeng/stock-sdk) - 零依赖 TypeScript 股票数据 SDK + 内置 MCP server；覆盖 A / H / 美股和公募基金，支持 Browser / Node.js、CLI 与 Claude Code / Codex。
 - [saidsurucu/borsa-mcp](https://github.com/saidsurucu/borsa-mcp) - 土耳其 BIST + 美股 + 基金数据 MCP；覆盖非中美区域市场。
 - [aahl/mcp-aktools](https://github.com/aahl/mcp-aktools) - 基于 akshare / aktools 的股票与加密数据 MCP；通过 AKShare 生态覆盖较广的市场数据。
 - [elsejj/mcp-cn-a-stock](https://github.com/elsejj/mcp-cn-a-stock) - A 股专项数据 MCP；聚焦单市场高覆盖度，区别于多源聚合器。
@@ -268,8 +276,10 @@ Skills 是给 Claude Code 或其他 Agent 系统复用的说明和工作流。�
 - [tradermonty/claude-trading-skills](https://github.com/tradermonty/claude-trading-skills) - 面向美股投资者的大型 Skill pack；覆盖市场分析、市场宽度、市场状态、选股方法、期权、Alpaca 组合管理和研究工作流。 *(→ pairs with: [alpacahq/alpaca-mcp-server](#mcps-alpaca).)*
 <a id="skills-finance-skills"></a>
 - [himself65/finance-skills](https://github.com/himself65/finance-skills) - 覆盖多类资产的 Skill pack；包括估值、earnings review、期权 payoff、ETF 检查、流动性、社媒研究和地缘风险分析。
+- [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) - 面向 Claude Code / Codex 的价值投资研究框架；把四位投资大师方法论和 Multi-agent 分析结合起来。
 - [JoelLewis/finance_skills](https://github.com/JoelLewis/finance_skills) - 给 Claude Code 用的金融行业技能包；84 个小技能，帮它处理投资管理、合规检查、投顾日常、交易运营和持仓报告。
 - [quant-sentiment-ai/claude-equity-research](https://github.com/quant-sentiment-ai/claude-equity-research) - Claude Code 研究 Skill；用基本面、技术面、期权流、内部交易和行业背景生成买 / 卖 / 持有报告。
+- [monarchjuno/tradingcodex](https://github.com/monarchjuno/tradingcodex) - Codex-native 投资工作流团队；覆盖研究、组合和交易导向分析。
 <a id="skills-alphaear"></a>
 - [RKiding/Awesome-finance-skills](https://github.com/RKiding/Awesome-finance-skills) - Alphaear Skill suite；覆盖新闻、股票、情绪、预测、信号跟踪、逻辑可视化、报告和搜索。
 
@@ -289,6 +299,7 @@ Skills 是给 Claude Code 或其他 Agent 系统复用的说明和工作流。�
 <a id="skills-vectorbt-backtesting"></a>
 - [marketcalls/vectorbt-backtesting-skills](https://github.com/marketcalls/vectorbt-backtesting-skills) - 面向 vectorbt 的回测 Skill；提供 setup、backtest、optimization、quick stats、strategy comparison 和可复用策略模板。
 - [MobiusQuant/OpenMobius-skill](https://github.com/MobiusQuant/OpenMobius-skill) - ICT / SMC 交易知识 Skill，面向 Claude Code、Codex、OpenClaw 和 Hermes；包含知识卡片、实时行情、技术指标和图表生成。
+- [Superior-Trade/superior-skills](https://github.com/Superior-Trade/superior-skills) - Agent Skills + tool schemas；用于构建、回测和部署 Hyperliquid 交易策略。
 
 <a id="skills-brokerage"></a>
 ### Brokerage execution & portfolio
